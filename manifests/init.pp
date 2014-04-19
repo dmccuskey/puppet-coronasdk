@@ -4,7 +4,8 @@
 class coronasdk {
   package { 'CoronaSDK':
     source => 'http://developer.coronalabs.com/sites/default/files/corona/2014.2189/CoronaSDK-2014.2189.dmg',
-    provider => 'appdmg_eula'
+    version => '2014.2189',
+    provider => 'folderdmg_eula_coronasdk'
   }
 }
 
